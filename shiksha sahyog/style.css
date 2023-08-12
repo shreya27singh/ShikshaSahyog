@@ -221,3 +221,37 @@ overlay-text {
 }
 
 /* end */
+
+/* state tab css */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px; 
+    font-size:16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size:16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+    padding-left: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size:16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+    padding-left: 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* end */
