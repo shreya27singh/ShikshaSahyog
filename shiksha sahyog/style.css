@@ -266,3 +266,48 @@ th {
     background-color: #f2f2f2;
 }
 /* end */
+
+
+/* Notice board css */
+
+.notice-board {
+	margin-left: 0;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	max-width: 700px;
+	height: 500px;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.notice {
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+}
+
+.notice h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: red;
+}
+
+.notice p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+.notice-container {
+	position: absolute;
+    top: 150px; /* Adjust the top distance as needed */
+    right: 20px; /* Adjust the left distance as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+}
+
+/* end */
