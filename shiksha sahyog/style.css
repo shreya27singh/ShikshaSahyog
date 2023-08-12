@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan' , sans-serif;
+    font-family: 'Raleway' , sans-serif; 
 }
 
 h1{
@@ -163,3 +163,61 @@ body{
 }
 
 /* Rest of your existing styles */
+
+/* How it Works Style sheet */
+container {
+    display: inline-block;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+	
+.para p {
+    text-align: left;
+    color: #465b52;
+    font-size: 27px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 15px 0 20px 0;
+	font-family: 'Raleway' , sans-serif; 
+    font-weight: 400;
+	color: #088178;
+}
+
+.first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+	
+background-section {
+    position: relative;
+    background-image: url('C:\Users\KIIT\Downloads\HIW.png'); /* Update with the correct path */
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* end */
