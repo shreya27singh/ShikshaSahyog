@@ -223,6 +223,18 @@ overlay-text {
 /* end */
 
 /* state tab css */
+.stateh2 h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+    padding: 10px;
+}
+.stateh3 h3{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+    padding: 10px;
+}
 ol {
     list-style-type: decimal;
     padding-left: 20px; 
@@ -253,5 +265,4 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-
 /* end */
